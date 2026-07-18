@@ -27,7 +27,6 @@ public class TorchIntegrationTests
         interaction.transform.position = Vector3.zero;
         torchObject.transform.position = new Vector3(1f, 0f, 0f);
 
-        // Keep the overlap radius default-friendly
     }
 
     [TearDown]
